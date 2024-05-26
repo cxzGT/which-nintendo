@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts.js"></script>
+  <script src="https://kit.fontawesome.com/a41ac15706.js" crossorigin="anonymous"></script>
+
+  <head>
+    <title>Your Perfect Nintendo</title>
+  </head> 
+  <body>
+    <div id="background"></div>
+    <div id="stars"></div>
+    <div id="landing-container">
+      <h1>What's your perfect Nintendo console or handheld?</h1>
+      <button id="play-button" class="btn" onclick="startQuiz()">Find out!</button>
+    </div>
+    <div id="quiz-container">
+      <div id="question-container">
+        <h2 id="question"></h2>
+        <p id="question-counter"></p>
+        <div id="answer-buttons" class="btn-container"></div>
+      </div>
+    </div>
+    <div id="result-container" class="hidden">
+      <h2>Your Perfect Nintendo console/handheld is the...</h2>
+      <p id="first-place"></p>
+      <img id="model-image" src="./assets/Regular Switch.png" class="img" alt="Your perfect Nintendo console">
+      <button id="show-all-button" class="btn" onclick="showAllResults()">Show All Results</button>
+      <div id="all-results" class="hidden">
+        <h3>Second Place:</h3>
+        <p id="second-place"></p>
+        <h3>Third Place:</h3>
+        <p id="third-place"></p>
+        <h3>Everything else in order from 4th place to 14th place:</h3>
+        <p id="fourth-place"></p>
+        <p id="fifth-place"></p>
+        <p id="sixth-place"></p>
+        <p id="seventh-place"></p>
+        <p id="eighth-place"></p>
+        <p id="ninth-place"></p>
+        <p id="tenth-place"></p>
+        <p id="eleventh-place"></p>
+        <p id="twelveth-place"></p>
+        <p id="thirteenth-place"></p>
+        <button id="play-button" class="btn" onclick="startQuiz()">Restart quiz</button>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

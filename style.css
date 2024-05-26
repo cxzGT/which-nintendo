@@ -1,0 +1,85 @@
+body {
+  font-family: monospace, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+  overflow: hidden;
+}
+
+#landing-container, #quiz-container, #result-container {
+  background: white;
+  padding: 80px;
+  border-radius: 55px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  max-width: 200px;
+  max-height: 200px;
+  display: inline-block;
+}
+
+.btn {
+  font-family: monospace, sans-serif;
+  background-color: #007bff;
+  color: white;
+  border: solid;
+  border-width: 3px;
+  border-color: black;
+  padding: 10px 35px;
+  margin: 10px 0;
+  border-radius: 40px;
+  cursor: pointer;
+  transition-duration: 200ms;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+#result-container {
+  text-align: center;
+}
+
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background-color: orange;
+  background-size: 100% 100%, auto;
+  z-index: -2;
+}
+
+#stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: lightgrey;
+  mask: url('https://assets.codepen.io/1468070/Star+Pattern+3.svg') repeat;
+  -webkit-mask: url('https://assets.codepen.io/1468070/Star+Pattern+3.svg') repeat;
+  background-size: 8%;
+  animation: moveStars 40s linear infinite;
+  z-index: -1;
+}
+
+@keyframes moveStars {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
