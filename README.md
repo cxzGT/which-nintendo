@@ -7,10 +7,10 @@ Just answer questions -- and you'll get your perfect Nintendo console or handhel
 ## Notes:
 ### I only put in these consoles lmao:
 - DS series:
- - DS, DS Lite, DSi, DSi XL
- - 3DS, 3DS XL, New 3DS, New 3DS XL
+  - DS, DS Lite, DSi, DSi XL
+  - 3DS, 3DS XL, New 3DS, New 3DS XL
 - Wii series:
- - Wii, Wii U
+  - Wii, Wii U
 - Switch series:
   - Switch, Switch Lite, Switch OLED
 ### This is SO shitty, ignore all the bugs lmao
